@@ -110,7 +110,7 @@ public class GameController implements ActionListener, Serializable {
             update();
 
             if (model.isFinished() == true) {
-                Icon icon = new ImageIcon(getClass().getResource("/data/java.png"));
+                Icon icon = new ImageIcon(getClass().getResource("/resource/java.png"));
 
                 Object[] option = {"Quit", "Play Again"};
                 result = JOptionPane.showOptionDialog(null, "Congruation! You win in " + model.getNumberOfSteps()
